@@ -15,7 +15,7 @@ install_requires = [
 
 setup(
     name='ivideon-demo-task',
-    version='0.1.0',
+    version='1.0.0',
 
     description='Реализация тестового задания для компании Ivideon',
     long_description=__doc__,
