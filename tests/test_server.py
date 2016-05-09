@@ -3,7 +3,7 @@ from unittest import mock
 import pytest
 
 from ivideon_demo_task.server import (
-    create_server, LampError, LampHandler, TLVCommand, TLVServer)
+    LampError, LampHandler, TLVCommand, TLVServer, create_server)
 
 
 class TestLampHandler:

@@ -1,12 +1,12 @@
-from collections import namedtuple
+import logging
 import struct
 import sys
-from tornado.iostream import StreamClosedError
-from tornado.tcpserver import TCPServer
-from tornado import gen
-import logging
-from tornado.log import LogFormatter
+from collections import namedtuple
 
+from tornado import gen
+from tornado.iostream import StreamClosedError
+from tornado.log import LogFormatter
+from tornado.tcpserver import TCPServer
 
 TLVCommand = namedtuple('TLVCommand', ['type', 'value'])
 
